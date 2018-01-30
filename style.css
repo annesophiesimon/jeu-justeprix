@@ -1,0 +1,109 @@
+body{
+background-color: #9999cc;
+margin: auto;
+font-family: "Open Sans";
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+line-height: 26.4px;
+color: #FFF;
+}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*#jeu {
+width: 1000px;
+height: 600px;
+margin: auto;
+background-color: #fff;
+margin-top: 5%;
+border-radius: 20px;
+display: block;
+}*/
+h1{
+text-align: center;
+margin-top: 50px;
+padding-top: 15px;
+color: #FFF;
+font-weight:normal;
+
+}
+
+button#jouer {
+width: 150px;
+padding: 5px;
+}
+button{
+display: block;
+margin: auto;
+background-color: #FFF;
+margin-bottom: 21px;
+color: #9999cc;
+text-transform: uppercase;
+}
+
+img {
+width: 350px;
+display: block;
+margin: auto;
+margin-top: 10px;
+border-radius: 10px;
+}
+
+h2 {
+text-align: center;
+font-weight: lighter;
+}
+input, p {
+display: block;
+margin: auto;
+width: 200px;
+height: 30px;
+text-align: center;
+}
+#indice {
+padding-bottom: 50px;
+}
+#valider {
+margin-bottom: 0;
+height: 42px;
+padding: 0 5%;
+}
+.alignement {
+display: inline-block;
+vertical-align: bottom;
+height: 36px;
+margin: auto;
+}
+
+#boutonCategorie button {
+width: 350px;
+height: 40px;
+}
+#partie {
+visibility: hidden;
+margin: auto;
+width: 350px;
+}

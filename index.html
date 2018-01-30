@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Le juste prix </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+</head>
+<body>
+  <div id="jeu">
+      <h1 id="titre"> LE JUSTE PRIX </h1>
+      <button id="jouer" onclick="jouer()"> JOUER </button>
+
+        <!--<p> Choisissez une catégorie</p> -->
+        <div id="boutonCategorie">
+        <button id="catVoiture"  type="button" onclick="choixCategorie(this.id)"> Voiture</button>
+        <button id="catCosmetique" type="button" onclick="choixCategorie(this.id)">Cosmétique</button>
+        <button id="catHighTech" type="button" onclick="choixCategorie(this.id)"> High Tech </button>
+        </div>
+
+
+      <img id="voiture" src="images/justeprix.jpg">
+
+
+
+      <div id="partie">
+
+        <h2> Devinez le prix ? </h2>
+        <div class="prix">
+          <input class="alignement" id="numb" placeholder="Tapez le prix">
+          <button class="alignement" id="valider" type="button" onclick="testResult()"> Validez </button>
+        </div>
+
+
+      </div>
+        <p id="demo"> </p>
+        <p id="indice"></p>  <!-- balise à remplir en fonction du prix choisi -->
+  </div>
+
+<script type="text/javascript" src="jeu.js"></script>
+</body>
+</html>
